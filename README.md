@@ -1,6 +1,12 @@
 # Análisis y Reporte de Chats
 
-![](https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/reporte.jpg)
+<div align="center">
+  <img 
+    src="https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/reporte.jpg" 
+    alt="Reporte de Mensajes" 
+    width="600" 
+    height="350" />
+</div>
 
 Este proyecto **unifica y analiza** mensajes de **WhatsApp** y **Telegram**, permitiendo:
 - **Extraer emojis** de cada mensaje.
