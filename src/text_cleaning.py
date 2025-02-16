@@ -50,11 +50,11 @@ def extract_emojis(text: str) -> str:
              Si no se encuentra ninguno, retorna cadena vacía.
     """
     if not text.strip():
-        return ""
+        return ''
 
     # Buscar todos los match de EMOJI_PATTERN y concatenarlos
     found_emojis = EMOJI_PATTERN.findall(text)
-    return "".join(found_emojis)
+    return ' '.join(found_emojis)
 
 
 def clean_text(text: str) -> str:

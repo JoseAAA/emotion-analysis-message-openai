@@ -1,5 +1,7 @@
 # Análisis y Reporte de Chats
 
+![](https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/reporte.jpg)
+
 Este proyecto **unifica y analiza** mensajes de **WhatsApp** y **Telegram**, permitiendo:
 - **Extraer emojis** de cada mensaje.
 - **Limpiar** el texto (eliminando URLs, menciones, stopwords, etc.).
@@ -192,9 +194,35 @@ etc.
 ## 12. Conclusión
 El proyecto Análisis y Reporte de Chats con Python 3.11 permite:
 
-Centralizar chats de WhatsApp y Telegram,
-Extraer emojis,
-Limpiar texto,
-Clasificar emociones en lotes (menos costo),
-Exportar un Excel final.
-¡Ojalá te resulte útil y fácil de replicar! Cualquier aporte o duda es bienvenido.
+- Centralizar chats de WhatsApp y Telegram,
+- Extraer emojis,
+- Limpiar texto,
+- Clasificar emociones en lotes (menos costo),
+- Exportar un Excel final.
+- ¡Ojalá te resulte útil y fácil de replicar! Cualquier aporte o duda es bienvenido.
+
+
+## 💻 Contribuidores 
+
+<table>
+  <tr>
+    <td align="center">
+        <a href="#Foto">
+            <img src="https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/jose.jpg" target="_blank" height="80px" alt=""/>
+            <br /><sub><b>Jose-Alarcon</b> </sub>
+        </a>
+        <br />
+        <a href="#analisis" title="Analisis">📈</a> 
+        <a href="https://github.com/JoseAAA" target="_blank" title="Github">:octocat:</a>
+    </td>
+    <td align="center">
+        <a href="#Foto">
+            <img src="https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/mayu.jpg" height="80px" alt="" target="_blank"/>
+            <br /><sub><b>Mayumy-Carrasco</b></sub>
+        </a>
+        <br />
+        <a href="#analisis" title="Analisis">📊</a> 
+        <a href="https://github.com/MayumyCH" target="_blank" title="Github">:octocat:</a>
+    </td>
+  </tr>
+</table>
