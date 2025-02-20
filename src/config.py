@@ -5,7 +5,7 @@ Módulo para cargar y exponer variables de entorno y configuraciones
 relacionadas con la aplicación. Lee datos de .env (claves, URL, modelo, mapeos, etc.)
 y maneja logs para advertir si hay problemas con parseos JSON.
 
-Autor: [Tu Nombre o Equipo]
+Autor: JoseAAA
 """
 
 import os
@@ -24,6 +24,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_API_BASE = os.getenv("OPENAI_API_BASE", "https://api.openai.com")
 OPENAI_API_MODEL = os.getenv("OPENAI_API_MODEL", "gpt-3.5-turbo")
+LANGUAGE = os.getenv("LANGUAGE", "es")
 
 if not OPENAI_API_KEY:
     logger.error("Falta configurar 'OPENAI_API_KEY' en .env.")

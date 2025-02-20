@@ -4,6 +4,8 @@ emotion_analysis.py
 Módulo para análisis de emociones usando la API estilo openai (OpenAI, DeepSeek, etc.).
 Incluye una función para clasificar una lista de textos en lotes (batch),
 optimizando el uso de la API para ser más rápido, barato y confiable.
+
+Autor: JoseAAA
 """
 
 import json
@@ -15,7 +17,8 @@ from config import (
     OPENAI_API_BASE,
     OPENAI_API_MODEL,
     VALID_EMOTIONS,
-    UNKNOWN_EMOTION_LABEL
+    UNKNOWN_EMOTION_LABEL,
+    LANGUAGE
 )
 
 logger = logging.getLogger(__name__)
@@ -60,7 +63,7 @@ def classify_texts_in_bulk(
 
     # Prompt mínimo en 'system' para ahorrar tokens
     system_prompt = (
-        "Eres un sistema de clasificación de emociones en español. "
+        f"Eres un sistema de clasificación de emociones en {LANGUAGE}. "
         "Recibirás un bloque de oraciones enumeradas, y tu respuesta debe ser "
         "EXCLUSIVAMENTE un objeto JSON con la forma:\n"
         "{ \"1\": \"amor\", \"2\": \"ira\", ... }\n"

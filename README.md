@@ -1,6 +1,12 @@
 # Análisis y Reporte de Chats
 
-![](https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/reporte.jpg)
+<div align="center">
+  <img 
+    src="https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/reporte.jpg" 
+    alt="Reporte de Mensajes" 
+    width="550" 
+    height="300" />
+</div>
 
 Este proyecto **unifica y analiza** mensajes de **WhatsApp** y **Telegram**, permitiendo:
 - **Extraer emojis** de cada mensaje.
@@ -102,6 +108,9 @@ CUSTOM_STOPWORDS='["pues", "asi", "digo", "tampoco", "che", "oye", "oki", "jaja"
 # Emociones
 VALID_EMOTIONS='["amor", "alegría", "sorpresa", "tristeza", "ira", "miedo"]'
 UNKNOWN_EMOTION_LABEL="Neutro"
+
+# Idioma
+LANGUAJE='español'
 ```
 
 1. `OPENAI_API_KEY`: tu clave secreta.
@@ -110,6 +119,7 @@ UNKNOWN_EMOTION_LABEL="Neutro"
 4. `WHATSAPP_SENDER_MAPPING`, `TELEGRAM_SENDER_MAPPING`: Diccionarios JSON para renombrar remitentes.
 5. `CUSTOM_STOPWORDS`: Stopwords adicionales.
 6. `VALID_EMOTIONS` y `UNKNOWN_EMOTION_LABEL`: Para la clasificación de emociones.
+7. `LANGUAJE` idioma de los mensajes.
 
 ## 6. Instalación y Configuración
 

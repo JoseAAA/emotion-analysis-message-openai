@@ -10,6 +10,8 @@ Script principal que orquesta:
 6) Guardado en Excel
 
 Incluye logging para un mejor seguimiento de la ejecución.
+
+Autor: JoseAAA
 """
 
 import os

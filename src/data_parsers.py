@@ -4,6 +4,8 @@ data_parsers.py
 Funciones para parsear archivos de WhatsApp, Telegram, u otras plataformas.
 Devuelven DataFrames con las columnas [datetime, sender, message].
 Incluye logging para mayor trazabilidad.
+
+Autor: JoseAAA
 """
 
 import os

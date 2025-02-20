@@ -3,6 +3,8 @@ text_cleaning.py
 
 Funciones para limpiar y normalizar texto en español, 
 incluyendo extracción de emojis, eliminación de URLs, etc.
+
+Autor: JoseAAA
 """
 
 import re
