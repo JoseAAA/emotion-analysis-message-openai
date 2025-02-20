@@ -4,13 +4,8 @@
   <img 
     src="https://raw.githubusercontent.com/JoseAAA/emotion-analysis-message-openai/main/img/reporte.jpg" 
     alt="Reporte de Mensajes" 
-<<<<<<< HEAD
-    width="550" 
-    height="300" />
-=======
     width="600" 
     height="350" />
->>>>>>> 875ea4d812aa8ec7e3977f9d06fc37bfe07f2bef
 </div>
 
 Este proyecto **unifica y analiza** mensajes de **WhatsApp** y **Telegram**, permitiendo:
